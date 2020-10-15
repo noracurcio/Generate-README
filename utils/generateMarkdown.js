@@ -1,21 +1,21 @@
 
 // function  for generating license badge
 
-function renderLicenseBadge(lincense){
+function renderLicenseBadge(license){
   if (license !== none){
     return`![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
 }
 
-// function for generating link from table of contents to content
 
-// generating a license content to appear on a page.
-
-// function to generate markdown for README
 
 
 function generateMarkdown(data) {
-  return `# ${data.title}
+
+
+  return ` ${renderLicenseBadge(data.license)}
+  
+  # ${data.title}
 
   ## DESCRIPTION 
 
@@ -23,11 +23,30 @@ function generateMarkdown(data) {
 
   ## TABLE OF CONTENTS
 
-  * [INSTALATION](#intallation)
+  * [LICENSE](#license)
 
-  * [USAGE](#usage)
+  * [CONTRIBUTING](#contributing)
 
-  * [CONTRIBUTORS](#contributors)
+  * [TESTS](#tests)
+
+  *[QUESTIONS](#questions)
+
+  ## INSTALLATION
+  ${data.installation}
+
+  ## USAGE
+  ${data.usage}
+
+  ## LICENSE
+  This project is licensed under the ${data.license} license
+
+  ## CONTRIBUTING
+  ${data.contribututing}
+
+  ## QUESTIONS
+  Please contact ${data.email} regarding any questions. 
+
+  Github username: ${data.username}
 
 `;
 
