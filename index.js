@@ -3,7 +3,7 @@ var inquirer = require("inquirer")
 var fs = require("fs")
 var path = require("path")
 var generateMarkdown = require("./utils/generateMarkdown");
-const Choices = require("inquirer/lib/objects/choices");
+
 
 
 // array of questions for user
@@ -52,7 +52,8 @@ const questions = [
       {
         type: "input",
         message: "What command is needed to run tests?",
-        name: "tests"
+        name: "tests",
+        default: "npm run test",
       },
       
       {
@@ -65,6 +66,7 @@ const questions = [
         message: "What is your Email Address?",
         name: "email"
     },
+
 
       
 
@@ -83,6 +85,8 @@ function init() {
   })
 
 }
+
+console.log("Done!")
 
 // function call to initialize program
 init();

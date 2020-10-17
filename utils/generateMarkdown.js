@@ -2,7 +2,7 @@
 // function  for generating license badge
 
 function renderLicenseBadge(license){
-  if (license !== none){
+  if (license !== "None"){
     return`![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
 }
@@ -19,7 +19,7 @@ function generateMarkdown(data) {
 
   ## DESCRIPTION 
 
-  ${data.descripton}
+  ${data.description}
 
   ## TABLE OF CONTENTS
 
@@ -29,7 +29,7 @@ function generateMarkdown(data) {
 
   * [TESTS](#tests)
 
-  *[QUESTIONS](#questions)
+  * [QUESTIONS](#questions)
 
   ## INSTALLATION
   ${data.installation}
@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   This project is licensed under the ${data.license} license
 
   ## CONTRIBUTING
-  ${data.contribututing}
+  ${data.contributing}
 
   ## QUESTIONS
   Please contact ${data.email} regarding any questions. 
