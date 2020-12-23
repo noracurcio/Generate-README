@@ -1,40 +1,41 @@
- ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
-  
-  # Nora's README Generator
+![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
 
-   <iframe src="https://drive.google.com/file/d/1e6S3w_ZaVwmoFVE9gXGsQRcvt_LsQd5y/preview" width="640" height="480"></iframe>
+# Nora's README Generator
 
-  ## DESCRIPTION 
+<iframe src="https://drive.google.com/file/d/1e6S3w_ZaVwmoFVE9gXGsQRcvt_LsQd5y/preview" width="640" height="480"></iframe>
 
-  This is a simple application that allows the user to generate a detailed and professional read me using only the command line.
-  
+## DESCRIPTION
 
-  ## TABLE OF CONTENTS
+This is a simple application created using node.js that allows the user to generate a detailed and professional "ReadMe file" in markdown using only the command line.
 
-  * [LICENSE](#license)
+## TABLE OF CONTENTS
 
-  * [CONTRIBUTING](#contributing)
+- [LICENSE](#license)
 
-  * [TESTS](#tests)
+- [CONTRIBUTING](#contributing)
 
-  * [QUESTIONS](#questions)
+- [TESTS](#tests)
 
-  ## INSTALLATION
-  npm install
+- [QUESTIONS](#questions)
 
-  ## USAGE
-  Node must be run to allow for the program to work.
+## INSTALLATION
 
-  ## LICENSE
-  This project is licensed under the None license
+npm install is required to run this application
 
-  ## CONTRIBUTING
-  N/A
+## USAGE
 
-  ## QUESTIONS
-  Please contact noracurcio@gmail.com regarding any questions. 
+Node must be run to allow for the program to work.
 
-  Github username: noracurcio
+## LICENSE
 
- 
+This project is licensed under the MIT license
 
+## CONTRIBUTING
+
+N/A
+
+## QUESTIONS
+
+Please contact noracurcio@gmail.com regarding any questions.
+
+Github username: noracurcio
